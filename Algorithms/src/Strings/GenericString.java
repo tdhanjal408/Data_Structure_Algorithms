@@ -21,6 +21,5 @@ public class GenericString {
 		return 0;
 	}
 	
-	//http://www.programcreek.com/2013/02/longest-substring-which-contains-2-unique-characters/
-	
+
 }
