@@ -28,7 +28,7 @@ public class Traingle {
 		
 		if(side1%side2 ==0 && side3%side2 ==0){
 			return "Equilateral Traingle";	
-		}else if(side1%side2 ==0 || side3%side2 == 0){
+		}else if(side1%side2 ==0 || side3%side2 == 0 || side3%side1 == 0 ){
 			return "Issoceles Traingle";
 		}else{
 			return "Scalene Traingle";
@@ -46,7 +46,7 @@ public class Traingle {
 
 		if(side1%side2 ==0 && side3%side2 ==0){
 			return "Equilateral Traingle";	
-		}else if(side1%side2 ==0 || side3%side2 == 0){
+		}else if(side1%side2 ==0 || side3%side2 == 0 || side3%side1 == 0 ){
 			return "Issoceles Traingle";
 		}else{
 			return "Scalene Traingle";
@@ -68,9 +68,9 @@ public class Traingle {
 		
 		// Test Case 2
 		List<Integer> sides = new ArrayList<Integer>();
+		sides.add(2);
 		sides.add(3);
-		sides.add(3);
-		sides.add(3);
+		sides.add(2);
 		System.out.println("Test case 2 result: " + t.checkTraingleWithSides(sides));
 		
 	}
