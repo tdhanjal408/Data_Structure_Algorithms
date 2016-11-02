@@ -26,5 +26,15 @@ public class TestRun {
 		System.out.println(testStack.pop());
 		testStack.push(91);
 		System.out.println(testStack.pop());
+		System.out.println("--------------");
+		HashArray<Integer> array = new HashArray<Integer>(); 
+		array.insert(34);
+		array.insert(23);
+		array.insert(90);
+		System.out.println(array.getRandom());
+		System.out.println(array.getRandom());
+		array.remove(23);
+		System.out.println(array.search(23));
+		
 	}
 }
